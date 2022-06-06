@@ -32,8 +32,3 @@ const LandingPage = () => {
 };
 
 export { LandingPage };
-
-// onClick={() => {
-//     localStorage.setItem("name", name);
-//     window.location.reload(false);
-// }}
