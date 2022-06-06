@@ -1,13 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Inter:wght@300&family=Open+Sans:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Sedgwick+Ave&family=Source+Code+Pro:ital,wght@1,200&display=swap");
+
 body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url(https://source.unsplash.com/random?nature/1366%C3%97768);
+  background-repeat: no-repeat;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --primary-color: #effaf6;
+  --white: #ffffff;
+  --hover: rgb(92, 79, 168);
+  --home-bg-color: #000000;
+  --input-bg-color: rgba(0, 0, 0, 0.5);
+  --landing-page-font: cursive;
+  --label-title-color: rgb(219, 218, 170);
+  --text-color: #000000;
+  --login-container-color: #544f4f;
+  --login-hover: rgb(45, 41, 41);
+  --link-color: rgb(255, 255, 255);
+  --link-hover: rgb(39, 25, 25);
+  --login-font: "roboto";
+  --card-font: "Roboto", "Arial", sans-serif;
+  --vr-card-bg: rgb(205, 205, 205);
+  -mod-bg: rgb(172, 164, 164);
+  --black: black;
+  --welcome-font: "Inter", "sans-serif";
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

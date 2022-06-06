@@ -1,0 +1,39 @@
+.name-input {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--primary-color);
+}
+
+.welcome-message {
+  font-family: var(--welcome-font);
+  font-size: 3rem;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--white);
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.primary-button {
+  color: var(--black);
+  border: none;
+  font-family: var(--welcome-font);
+  border-radius: 2rem;
+  margin-top: 5rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color);
+}
