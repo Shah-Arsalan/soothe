@@ -1,0 +1,14 @@
+.clock-container {
+  height: 100vh;
+  color: var(--white);
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hourandminute:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}

@@ -1,7 +1,7 @@
 import "./LandingPage.css";
 import { useState } from "react";
 
-const LandingPage = () => {
+const LandingPage = ({ setUserName }) => {
   const [name, setName] = useState("");
   console.log(name);
   return (
@@ -20,7 +20,10 @@ const LandingPage = () => {
         />
         {name.length > 0 && (
           <button
-            onClick={() => localStorage.setItem("username", name)}
+            onClick={() => {
+              localStorage.setItem("username", name);
+              setUserName(name);
+            }}
             className="primary-button"
           >
             Enter Soothe{" "}
