@@ -1,0 +1,46 @@
+.focus-container p {
+  font-size: 2rem;
+}
+
+.focus-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.focus-message {
+  display: flex;
+  font-size: 2rem;
+  width: max-content;
+  justify-content: space-around;
+  align-items: center;
+}
+.focus-message label {
+  font-size: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1rem;
+  align-self: flex-end;
+  gap: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.check {
+  font-size: 1rem;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}

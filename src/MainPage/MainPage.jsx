@@ -1,10 +1,14 @@
-import { Clock } from "../Components";
+import { Clock, Focus, Weather } from "../Components";
 import "./MainPage.css";
 
 const MainPage = () => {
   return (
     <>
-      <Clock />
+      <div className="clock-focus-container">
+        <Clock />
+        <Focus />
+        <Weather />
+      </div>
     </>
   );
 };
