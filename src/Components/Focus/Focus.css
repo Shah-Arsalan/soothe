@@ -35,12 +35,63 @@
   gap: 2rem;
 }
 
-.check {
+/* .check {
   font-size: 1rem;
   align-self: center;
   margin-top: 1rem;
+} */
+
+/* input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0.15rem solid;
+  border-radius: 0.15rem;
+  color: currentColor;
+  display: inline-grid;
+  font: inherit;
+  height: 1.15rem;
+  margin-top: 0.5rem;
+  width: 1.15rem;
 }
 
+input[type="checkbox"]:checked {
+  background-color: red;
+}
+
+input[type="checkbox"]:after {
+  font-family: "Font Awesome 5 Free";
+  content: "*";
+} */
+
+.check {
+  appearance: none;
+  margin-top: 0.5rem;
+  font: inherit;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.15rem solid currentColor;
+  border-radius: 0.2rem;
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+
+.check::before {
+  content: "";
+  width: 0.65rem;
+  height: 0.65rem;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1rem 1rem var(--white);
+}
+
+.check:checked::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+  /* clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); */
+}
 .strike {
   text-decoration: line-through;
 }
