@@ -1,14 +1,24 @@
-/* .clock-container {
-  height: 100vh;
-  color: var(--white);
-  font-size: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
+.clock-container {
+  position: relative;
+  font-family: var(--main-font);
+}
 
 .hourandminute:hover {
   cursor: pointer;
   color: var(--primary-color);
+}
+.tooltip {
+  visibility: hidden;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0;
+  left: 32rem;
+  border: 1px solid var(--black);
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: var(--black);
+}
+
+.hourandminute:hover .tooltip {
+  visibility: visible;
 }

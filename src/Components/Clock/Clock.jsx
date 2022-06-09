@@ -6,7 +6,13 @@ const Clock = () => {
   const hour = today.getHours();
   const minute = today.getMinutes();
   const minutes = minute / 10 < 1 ? `0${minute}` : minute;
-  //   const seconds = today.getSeconds();
+  const wish = `Good ${
+    (hour < 4 && "evening") ||
+    (hour < 12 && "morning") ||
+    (hour < 16 && "afternoon") ||
+    (hour < 21 && "evening") ||
+    "evening"
+  }`;
   const hours = hour % 12 || 12;
   const hourAndMinutes = hour + ":" + minutes;
   const hourAndMinutesIn24 = hours + ":" + minutes;
@@ -32,8 +38,15 @@ const Clock = () => {
           className="hourandminute"
         >
           {clockFormat ? hourAndMinutes : hourAndMinutesIn24}
+          <p className="tooltip">
+            {clockFormat
+              ? "Change to  12 hour format"
+              : "Change to 24 hour format"}
+          </p>
         </div>
-        <div>Welcome {name}</div>
+        <div>
+          {wish} , {name}
+        </div>
       </div>
     </>
   );

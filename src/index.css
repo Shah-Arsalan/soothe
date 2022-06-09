@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Inter:wght@300&family=Open+Sans:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Sedgwick+Ave&family=Source+Code+Pro:ital,wght@1,200&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
     url(https://source.unsplash.com/random?nature/1366%C3%97768);
@@ -35,7 +37,10 @@ body {
   --vr-card-bg: rgb(205, 205, 205);
   -mod-bg: rgb(172, 164, 164);
   --black: black;
-  --welcome-font: "Inter", "sans-serif";
+  --welcome-font: "Source Code Pro", "monospace";
+  --main-font: "Rubik", "sans-serif";
+  --weather-font: "Montserrat", "sans-serif";
+  --modal-bg: rgba(0, 0, 0, 0.7);
 }
 
 code {

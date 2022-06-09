@@ -6,7 +6,6 @@ import { MainPage } from "./MainPage/MainPage";
 function App() {
   const [userName, setUserName] = useState(false);
   useEffect(() => {
-    console.log("aralan");
     const newUser = localStorage.getItem("username");
     setUserName(newUser);
   }, [userName]);

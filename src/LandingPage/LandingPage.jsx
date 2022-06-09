@@ -7,7 +7,7 @@ const LandingPage = ({ setUserName }) => {
   return (
     <>
       <div className="name-input">
-        <div className="welcome-message">Hello there! Enter your name</div>
+        <div className="welcome-message">Hey , Enter your name</div>
         <input
           value={name}
           onChange={(e) => {
