@@ -1,4 +1,4 @@
-import { Clock, Focus, Weather } from "../Components";
+import { Clock, Focus, Quotes, Weather } from "../Components";
 import "./MainPage.css";
 
 const MainPage = () => {
@@ -8,6 +8,7 @@ const MainPage = () => {
         <Clock />
         <Focus />
         <Weather />
+        <Quotes />
       </div>
     </>
   );

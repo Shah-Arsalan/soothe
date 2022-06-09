@@ -9,7 +9,7 @@
 }
 
 .welcome-message {
-  font-family: var(--welcome-font);
+  font-family: var(--main-font);
   font-size: 3rem;
 }
 
