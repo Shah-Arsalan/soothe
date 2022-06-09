@@ -21,10 +21,6 @@ const Focus = () => {
     localStorage.setItem("activeFocusState", false);
     setFocusState(false);
   };
-  //   const item = localStorage.getItem("check");
-  //   console.log("item is : ", item);
-  //   console.log("upar", typeof check);
-  console.log("check value", typeof check);
 
   return (
     <>

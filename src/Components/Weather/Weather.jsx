@@ -51,7 +51,6 @@ const Weather = () => {
     const coordinates = await position.coords;
     const lat = coordinates.latitude;
     const lon = coordinates.longitude;
-    console.log("inside", coordinates.latitude, coordinates.longitude);
     runApiCall(lat, lon);
   };
 
