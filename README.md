@@ -42,7 +42,9 @@ Replace the new tab page on your browser with a dashboard so refreshing that it 
 
 
 ## More about Features - 
-The extension changes the background and quote on every refresh 
+The extension changes the background and quote on every refresh
+You can change clock time format 
+You can edit main focus of the day or delete it 
 Live location is used to fetch weather results 
 
 
