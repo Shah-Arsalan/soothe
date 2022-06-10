@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Soothe - Web Extention  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description- 
+Replace the new tab page on your browser with a dashboard so refreshing that it soothes your mind!
 
-## Available Scripts
+## Technologies used - 
+- React Js
 
-In the project directory, you can run:
+## Resources - 
+- [Frid UI](https://frid-ui.netlify.app)
+- [Open Weather Api](https://openweathermap.org/api)
+- [Quotes Api](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373)
+- [Unsplash Images](https://unsplash.com/)
 
-### `npm start`
+##  Full dashboard - 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (296)](https://user-images.githubusercontent.com/83701141/173049946-3d670925-403f-416e-9c7c-4fcc81dcb0f6.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features -
 
-### `npm test`
+### A real time clock that greets according to time  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (clock)](https://user-images.githubusercontent.com/83701141/173050302-3e5be09c-21b9-40bc-9344-571bdaf7ed50.png)
 
-### `npm run build`
+### Live Weather Details 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot (weather)](https://user-images.githubusercontent.com/83701141/173050542-7a6eaf33-7f2b-4dd1-a5fb-1ad8b6c6f20d.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Adding main goal of the day 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (focus)](https://user-images.githubusercontent.com/83701141/173050879-0cfd0912-65d7-44bf-90f2-a9bb9a2c509e.png)
 
-### `npm run eject`
+#### Cross off when completed 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (completed)](https://user-images.githubusercontent.com/83701141/173051153-8b0d3192-85c9-45bf-b733-1cf67d19ea2c.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Quote to make your day better 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot (quote)](https://user-images.githubusercontent.com/83701141/173051367-a6be3e65-1e1a-4be9-b40b-edb073887432.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## More about Features - 
+The extension changes the background and quote on every refresh 
+Live location is used to fetch weather results 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
