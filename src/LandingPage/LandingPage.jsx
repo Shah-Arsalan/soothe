@@ -1,8 +1,8 @@
 import "./LandingPage.css";
-import { useState } from "react";
+import { useData } from "../Context/data-context";
 
 const LandingPage = ({ setUserName }) => {
-  const [name, setName] = useState("");
+  const {name , setName} = useData();
   console.log(name);
   return (
     <>
