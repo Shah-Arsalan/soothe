@@ -13,6 +13,13 @@ const LandingPage = ({ setUserName }) => {
           onChange={(e) => {
             setName(e.target.value);
           }}
+          onKeyPress={(e) => {
+						if (e.key === "Enter") {
+							localStorage.setItem("username", name);
+              setUserName(name);
+							window.location.reload(false);
+						}
+					}}
           type="text"
           className=""
           autoComplete="off"
